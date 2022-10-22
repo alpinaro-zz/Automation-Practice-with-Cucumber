@@ -70,7 +70,7 @@ Feature: US1001 Sign Up and Order
     And order is complete
 
   @ap @account
-  Scenario: TC012 Confirm
+  Scenario: TC012 Account Page
     When account link clicked
     Then page is "My account"
 
